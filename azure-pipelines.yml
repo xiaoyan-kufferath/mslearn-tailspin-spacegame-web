@@ -2,9 +2,10 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'windows-lastest'
-  demands:
-  - npm
+  # vmImage: 'ubuntu-20.04'
+  # demands:
+  # - npm
+  vmImage: windows-latest
 
 variables:
   buildConfiguration: 'Release'
